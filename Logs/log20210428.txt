@@ -1,0 +1,904 @@
+2021-04-28 08:05:16.682 +07:00 [INF] Starting web host
+2021-04-28 08:08:57.905 +07:00 [INF] Starting web host
+2021-04-28 08:09:05.260 +07:00 [INF] Starting web host
+2021-04-28 08:09:32.418 +07:00 [INF] Starting web host
+2021-04-28 08:10:00.190 +07:00 [INF] Starting web host
+2021-04-28 08:10:31.957 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Order -> OrderDto_ToReturn
+SevenEleven.Models.Order -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+
+Type Map configuration:
+Order -> OrderDto_ToReturn
+SevenEleven.Models.Order -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+
+Destination Member:
+OrderItems
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+   at lambda_method(Closure , OrderItem , OrderItemDto_ToReturn , ResolutionContext )
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.NewOrder(OrderDto_ToCreate newOrder) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 119
+   at SevenEleven.Controllers.OrderController.NewOrder(OrderDto_ToCreate newProduct) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:12:07.736 +07:00 [INF] Starting web host
+2021-04-28 08:12:31.882 +07:00 [INF] Starting web host
+2021-04-28 08:14:05.574 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Order -> OrderDto_ToReturn
+SevenEleven.Models.Order -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+
+Type Map configuration:
+Order -> OrderDto_ToReturn
+SevenEleven.Models.Order -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+
+Destination Member:
+OrderItems
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+   at lambda_method(Closure , OrderItem , OrderItemDto_ToReturn , ResolutionContext )
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.NewOrder(OrderDto_ToCreate newOrder) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 119
+   at SevenEleven.Controllers.OrderController.NewOrder(OrderDto_ToCreate newProduct) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:16:59.427 +07:00 [INF] Starting web host
+2021-04-28 08:19:38.907 +07:00 [INF] Starting web host
+2021-04-28 08:19:42.392 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Order.OrderDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.NewOrder(OrderDto_ToCreate newOrder) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 119
+   at SevenEleven.Controllers.OrderController.NewOrder(OrderDto_ToCreate newProduct) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:20:30.064 +07:00 [INF] Starting web host
+2021-04-28 08:23:53.040 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Order -> OrderDto_ToReturn
+SevenEleven.Models.Order -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+
+Type Map configuration:
+Order -> OrderDto_ToReturn
+SevenEleven.Models.Order -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+
+Destination Member:
+OrderItems
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+   at lambda_method(Closure , OrderItem , OrderItemDto_ToReturn , ResolutionContext )
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.NewOrder(OrderDto_ToCreate newOrder) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 119
+   at SevenEleven.Controllers.OrderController.NewOrder(OrderDto_ToCreate newProduct) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:25:31.427 +07:00 [INF] Starting web host
+2021-04-28 08:39:47.269 +07:00 [INF] Starting web host
+2021-04-28 08:41:33.267 +07:00 [INF] Starting web host
+2021-04-28 08:44:15.431 +07:00 [INF] Starting web host
+2021-04-28 08:45:50.074 +07:00 [INF] Starting web host
+2021-04-28 08:46:00.959 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderDto_ToReturn
+System.Object -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 127
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:46:37.527 +07:00 [INF] Starting web host
+2021-04-28 08:47:32.833 +07:00 [INF] Starting web host
+2021-04-28 08:47:34.216 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderDto_ToReturn
+System.Object -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 127
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:48:07.627 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderDto_ToReturn
+System.Object -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 127
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:49:07.507 +07:00 [INF] Starting web host
+2021-04-28 08:49:27.659 +07:00 [INF] Starting web host
+2021-04-28 08:50:35.895 +07:00 [INF] Starting web host
+2021-04-28 08:52:09.418 +07:00 [INF] Starting web host
+2021-04-28 08:53:13.912 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Order.OrderDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 139
+   at SevenEleven.Controllers.OrderController.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:54:02.872 +07:00 [INF] Starting web host
+2021-04-28 08:55:06.677 +07:00 [INF] Starting web host
+2021-04-28 08:55:33.451 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Order.OrderDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 139
+   at SevenEleven.Controllers.OrderController.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:57:07.410 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Order.OrderDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 139
+   at SevenEleven.Controllers.OrderController.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:57:44.035 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Order.OrderDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 139
+   at SevenEleven.Controllers.OrderController.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 08:58:06.776 +07:00 [INF] Starting web host
+2021-04-28 08:59:00.308 +07:00 [INF] Starting web host
+2021-04-28 08:59:49.486 +07:00 [INF] Starting web host
+2021-04-28 08:59:58.407 +07:00 [INF] Starting web host
+2021-04-28 09:07:23.481 +07:00 [INF] Starting web host
+2021-04-28 09:07:38.130 +07:00 [INF] Starting web host
+2021-04-28 09:15:11.391 +07:00 [INF] Starting web host
+2021-04-28 09:15:30.874 +07:00 [INF] Starting web host
+2021-04-28 09:17:08.151 +07:00 [INF] Starting web host
+2021-04-28 09:17:32.979 +07:00 [INF] Starting web host
+2021-04-28 09:17:37.654 +07:00 [INF] Starting web host
+2021-04-28 09:20:04.776 +07:00 [INF] Starting web host
+2021-04-28 09:20:24.419 +07:00 [INF] Starting web host
+2021-04-28 09:21:21.549 +07:00 [INF] Starting web host
+2021-04-28 09:21:42.322 +07:00 [INF] Starting web host
+2021-04-28 09:21:56.926 +07:00 [INF] Starting web host
+2021-04-28 09:21:58.627 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderItemDto_ToReturnByOrderId
+System.Object -> SevenEleven.DTOs.Order.OrderItemDto_ToReturnByOrderId
+   at lambda_method(Closure , Object , OrderItemDto_ToReturnByOrderId , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 131
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 09:22:35.001 +07:00 [INF] Starting web host
+2021-04-28 09:23:07.742 +07:00 [INF] Starting web host
+2021-04-28 09:23:39.870 +07:00 [INF] Starting web host
+2021-04-28 09:24:13.419 +07:00 [INF] Starting web host
+2021-04-28 09:28:13.961 +07:00 [INF] Starting web host
+2021-04-28 09:28:57.264 +07:00 [INF] Starting web host
+2021-04-28 09:29:24.988 +07:00 [INF] Starting web host
+2021-04-28 09:29:36.796 +07:00 [INF] Starting web host
+2021-04-28 09:29:59.759 +07:00 [INF] Starting web host
+2021-04-28 09:30:17.439 +07:00 [INF] Starting web host
+2021-04-28 09:35:02.710 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SevenEleven.Services.Order.OrderService.GetByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 171
+   at SevenEleven.Controllers.OrderController.GetByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 09:37:23.398 +07:00 [INF] Starting web host
+2021-04-28 09:39:35.199 +07:00 [INF] Starting web host
+2021-04-28 09:53:37.109 +07:00 [INF] Starting web host
+2021-04-28 09:54:00.702 +07:00 [INF] Starting web host
+2021-04-28 10:03:33.128 +07:00 [INF] Starting web host
+2021-04-28 10:03:34.843 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Type Map configuration:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Destination Member:
+Products
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> List`1
+SevenEleven.Models.Product -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Product , List`1 , ResolutionContext )
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 145
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:04:52.404 +07:00 [INF] Starting web host
+2021-04-28 10:04:54.000 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Type Map configuration:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Destination Member:
+Products
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> List`1
+SevenEleven.Models.Product -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Product , List`1 , ResolutionContext )
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 145
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:05:02.041 +07:00 [INF] Starting web host
+2021-04-28 10:05:26.898 +07:00 [INF] Starting web host
+2021-04-28 10:07:11.728 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Type Map configuration:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Destination Member:
+Products
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> List`1
+SevenEleven.Models.Product -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Product , List`1 , ResolutionContext )
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 145
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:09:07.177 +07:00 [INF] Starting web host
+2021-04-28 10:10:14.653 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 142
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:14:29.827 +07:00 [INF] Starting web host
+2021-04-28 10:14:33.446 +07:00 [INF] Starting web host
+2021-04-28 10:14:35.734 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 140
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:14:45.955 +07:00 [INF] Starting web host
+2021-04-28 10:24:23.658 +07:00 [INF] Starting web host
+2021-04-28 10:24:50.666 +07:00 [INF] Starting web host
+2021-04-28 10:25:34.877 +07:00 [INF] Starting web host
+2021-04-28 10:28:29.560 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderItemDto_ToReturn
+System.Object -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 140
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:28:29.806 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderItemDto_ToReturn
+System.Object -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 140
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:28:32.030 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderItemDto_ToReturn
+System.Object -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+   at lambda_method(Closure , Object , OrderItemDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 140
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:28:53.155 +07:00 [INF] Starting web host
+2021-04-28 10:30:30.463 +07:00 [INF] Starting web host
+2021-04-28 10:30:40.547 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Type Map configuration:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Destination Member:
+Products
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> List`1
+SevenEleven.Models.Product -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Product , List`1 , ResolutionContext )
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 142
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:30:54.666 +07:00 [INF] Starting web host
+2021-04-28 10:30:58.385 +07:00 [INF] Starting web host
+2021-04-28 10:31:04.110 +07:00 [INF] Starting web host
+2021-04-28 10:31:11.970 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Type Map configuration:
+OrderItem -> OrderItemDto_ToReturn
+SevenEleven.Models.OrderItem -> SevenEleven.DTOs.OrderItem.OrderItemDto_ToReturn
+
+Destination Member:
+Products
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> List`1
+SevenEleven.Models.Product -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method(Closure , Product , List`1 , ResolutionContext )
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.GetOrderItemByOrderId(Int32 orderId) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 142
+   at SevenEleven.Controllers.OrderController.GetOrderItemByOrderId(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 10:31:26.062 +07:00 [INF] Starting web host
+2021-04-28 10:31:47.623 +07:00 [INF] Starting web host
+2021-04-28 10:31:53.713 +07:00 [INF] Starting web host
+2021-04-28 10:32:34.817 +07:00 [INF] Starting web host
+2021-04-28 10:35:00.310 +07:00 [INF] Starting web host
+2021-04-28 10:35:08.065 +07:00 [INF] Starting web host
+2021-04-28 10:35:42.089 +07:00 [INF] Starting web host
+2021-04-28 10:40:47.756 +07:00 [INF] Starting web host
+2021-04-28 10:41:43.615 +07:00 [INF] Starting web host
+2021-04-28 10:42:31.606 +07:00 [INF] Starting web host
+2021-04-28 10:47:20.232 +07:00 [INF] Starting web host
+2021-04-28 10:47:56.362 +07:00 [INF] Starting web host
+2021-04-28 10:49:28.273 +07:00 [INF] Starting web host
+2021-04-28 10:54:57.248 +07:00 [INF] Starting web host
+2021-04-28 10:59:30.337 +07:00 [INF] Starting web host
+2021-04-28 11:04:30.701 +07:00 [INF] Starting web host
+2021-04-28 11:04:53.020 +07:00 [INF] Starting web host
+2021-04-28 11:07:34.322 +07:00 [INF] Starting web host
+2021-04-28 11:12:45.621 +07:00 [INF] Starting web host
+2021-04-28 11:13:59.007 +07:00 [INF] Starting web host
+2021-04-28 11:15:00.804 +07:00 [INF] Starting web host
+2021-04-28 11:15:22.933 +07:00 [INF] Starting web host
+2021-04-28 11:16:03.338 +07:00 [INF] Starting web host
+2021-04-28 11:18:54.813 +07:00 [INF] Starting web host
+2021-04-28 11:21:02.678 +07:00 [INF] Starting web host
+2021-04-28 11:23:59.238 +07:00 [INF] Starting web host
+2021-04-28 11:24:47.028 +07:00 [INF] Starting web host
+2021-04-28 11:25:22.674 +07:00 [INF] Starting web host
+2021-04-28 11:25:57.190 +07:00 [INF] Starting web host
+2021-04-28 11:26:13.921 +07:00 [INF] Starting web host
+2021-04-28 11:29:01.718 +07:00 [INF] Starting web host
+2021-04-28 11:29:11.820 +07:00 [INF] Starting web host
+2021-04-28 11:31:07.268 +07:00 [INF] Starting web host
+2021-04-28 11:31:35.848 +07:00 [INF] Starting web host
+2021-04-28 11:31:46.067 +07:00 [INF] Starting web host
+2021-04-28 11:34:11.825 +07:00 [INF] Starting web host
+2021-04-28 11:34:44.654 +07:00 [INF] Starting web host
+2021-04-28 11:39:24.821 +07:00 [INF] Starting web host
+2021-04-28 11:40:44.285 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> OrderDto_ToReturn
+System.Object -> SevenEleven.DTOs.Order.OrderDto_ToReturn
+   at lambda_method(Closure , Object , OrderDto_ToReturn , ResolutionContext )
+   at SevenEleven.Services.Order.OrderService.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Services\Order\OrderService.cs:line 186
+   at SevenEleven.Controllers.OrderController.CancleOrder(Int32 id) in D:\TestingExam\SevenEleven\Controllers\OrderController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-28 11:41:45.451 +07:00 [INF] Starting web host
+2021-04-28 11:42:54.413 +07:00 [INF] Starting web host
+2021-04-28 11:43:26.327 +07:00 [INF] Starting web host
+2021-04-28 11:46:23.054 +07:00 [INF] Starting web host
+2021-04-28 11:53:28.534 +07:00 [INF] Starting web host
+2021-04-28 11:54:05.242 +07:00 [INF] Starting web host
+2021-04-28 12:04:49.019 +07:00 [INF] Starting web host
+2021-04-28 12:41:57.117 +07:00 [INF] Starting web host
+2021-04-28 12:42:11.868 +07:00 [INF] Starting web host
+2021-04-28 12:48:20.616 +07:00 [INF] Starting web host
+2021-04-28 12:55:43.666 +07:00 [INF] Starting web host
+2021-04-28 12:56:17.788 +07:00 [INF] Starting web host
+2021-04-28 12:57:12.905 +07:00 [INF] Starting web host
+2021-04-28 12:57:23.415 +07:00 [INF] Starting web host
+2021-04-28 12:57:54.269 +07:00 [INF] Starting web host
+2021-04-28 12:58:12.483 +07:00 [INF] Starting web host
+2021-04-28 13:00:48.170 +07:00 [INF] Starting web host
+2021-04-28 13:06:57.363 +07:00 [INF] Starting web host
+2021-04-28 13:07:03.041 +07:00 [INF] Starting web host
+2021-04-28 13:07:40.943 +07:00 [INF] Starting web host
+2021-04-28 13:07:47.136 +07:00 [INF] Starting web host
+2021-04-28 13:08:03.571 +07:00 [INF] Starting web host
+2021-04-28 13:09:25.219 +07:00 [INF] Starting web host
+2021-04-28 13:16:15.786 +07:00 [INF] Starting web host
+2021-04-28 13:20:27.451 +07:00 [INF] Starting web host
+2021-04-28 13:21:06.503 +07:00 [INF] Starting web host
+2021-04-28 13:22:34.018 +07:00 [INF] Starting web host
+2021-04-28 13:23:20.388 +07:00 [INF] Starting web host
+2021-04-28 13:31:20.428 +07:00 [INF] Starting web host
+2021-04-28 13:32:07.553 +07:00 [INF] Starting web host
+2021-04-28 13:32:18.347 +07:00 [INF] Starting web host
+2021-04-28 13:32:22.847 +07:00 [INF] Starting web host
+2021-04-28 13:32:30.542 +07:00 [INF] Starting web host
+2021-04-28 13:32:56.373 +07:00 [INF] Starting web host
+2021-04-28 13:33:01.135 +07:00 [INF] Starting web host
+2021-04-28 13:33:26.294 +07:00 [INF] Starting web host
+2021-04-28 13:33:32.613 +07:00 [INF] Starting web host
+2021-04-28 13:33:37.773 +07:00 [INF] Starting web host
+2021-04-28 13:34:27.075 +07:00 [INF] Starting web host
+2021-04-28 13:34:32.877 +07:00 [INF] Starting web host
+2021-04-28 13:34:38.388 +07:00 [INF] Starting web host
+2021-04-28 13:35:04.125 +07:00 [INF] Starting web host
+2021-04-28 13:35:08.441 +07:00 [INF] Starting web host
+2021-04-28 13:38:14.871 +07:00 [INF] Starting web host
+2021-04-28 13:41:21.380 +07:00 [INF] Starting web host
+2021-04-28 13:41:29.548 +07:00 [INF] Starting web host
+2021-04-28 13:48:45.582 +07:00 [INF] Starting web host
+2021-04-28 13:48:49.751 +07:00 [INF] Starting web host
+2021-04-28 13:53:15.189 +07:00 [INF] Starting web host
+2021-04-28 13:57:56.931 +07:00 [INF] Starting web host
+2021-04-28 14:03:37.424 +07:00 [INF] Starting web host
+2021-04-28 14:07:20.476 +07:00 [INF] Starting web host
+2021-04-28 14:09:40.565 +07:00 [INF] Starting web host
+2021-04-28 14:11:26.856 +07:00 [INF] Starting web host
+2021-04-28 14:11:35.126 +07:00 [INF] Starting web host
+2021-04-28 14:13:49.575 +07:00 [INF] Starting web host
+2021-04-28 14:15:08.733 +07:00 [INF] Starting web host
+2021-04-28 14:15:15.493 +07:00 [INF] Starting web host
+2021-04-28 14:15:38.624 +07:00 [INF] Starting web host
+2021-04-28 14:17:14.049 +07:00 [INF] Starting web host
+2021-04-28 14:17:24.219 +07:00 [INF] Starting web host
+2021-04-28 14:27:33.930 +07:00 [INF] Starting web host
+2021-04-28 14:45:13.197 +07:00 [INF] Starting web host
+2021-04-28 14:45:43.687 +07:00 [INF] Starting web host
+2021-04-28 14:48:27.076 +07:00 [INF] Starting web host
+2021-04-28 14:49:26.130 +07:00 [INF] Starting web host
+2021-04-28 14:49:42.041 +07:00 [INF] Starting web host
+2021-04-28 14:56:34.561 +07:00 [INF] Starting web host
+2021-04-28 14:56:59.193 +07:00 [INF] Starting web host
+2021-04-28 15:00:54.679 +07:00 [INF] Starting web host
+2021-04-28 15:01:11.576 +07:00 [INF] Starting web host
+2021-04-28 15:01:46.869 +07:00 [INF] Starting web host
+2021-04-28 15:01:53.573 +07:00 [INF] Starting web host
+2021-04-28 15:02:02.604 +07:00 [INF] Starting web host
+2021-04-28 15:02:07.280 +07:00 [INF] Starting web host
+2021-04-28 15:03:11.245 +07:00 [INF] Starting web host
+2021-04-28 15:03:18.775 +07:00 [INF] Starting web host
+2021-04-28 15:03:30.348 +07:00 [INF] Starting web host
+2021-04-28 15:03:50.596 +07:00 [INF] Starting web host
+2021-04-28 15:04:02.966 +07:00 [INF] Starting web host
+2021-04-28 15:04:08.904 +07:00 [INF] Starting web host
+2021-04-28 15:04:34.409 +07:00 [INF] Starting web host
+2021-04-28 15:05:13.355 +07:00 [INF] Starting web host
+2021-04-28 15:08:39.057 +07:00 [INF] Starting web host
+2021-04-28 15:08:58.185 +07:00 [INF] Starting web host
+2021-04-28 15:09:33.733 +07:00 [INF] Starting web host
+2021-04-28 15:15:03.792 +07:00 [INF] Starting web host
+2021-04-28 15:15:07.871 +07:00 [INF] Starting web host
+2021-04-28 15:15:12.974 +07:00 [INF] Starting web host
+2021-04-28 15:15:53.371 +07:00 [INF] Starting web host
+2021-04-28 15:16:04.249 +07:00 [INF] Starting web host
+2021-04-28 15:16:28.285 +07:00 [INF] Starting web host
+2021-04-28 15:16:53.302 +07:00 [INF] Starting web host
+2021-04-28 15:26:50.986 +07:00 [INF] Starting web host

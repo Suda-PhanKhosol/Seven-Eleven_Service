@@ -1,0 +1,131 @@
+2021-04-27 15:39:43.834 +07:00 [INF] Starting web host
+2021-04-27 15:39:45.160 +07:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2021-04-27 15:39:45.301 +07:00 [FTL] Host terminated unexpectedly
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at SevenEleven.Program.Main(String[] args) in D:\TestingExam\SevenEleven\Program.cs:line 28
+2021-04-27 15:42:55.938 +07:00 [INF] Starting web host
+2021-04-27 16:02:34.284 +07:00 [INF] Starting web host
+2021-04-27 16:06:19.370 +07:00 [INF] Starting web host
+2021-04-27 16:10:16.767 +07:00 [INF] Starting web host
+2021-04-27 16:17:15.376 +07:00 [INF] Starting web host
+2021-04-27 16:17:36.083 +07:00 [INF] Starting web host
+2021-04-27 16:17:45.114 +07:00 [INF] Starting web host
+2021-04-27 16:17:50.360 +07:00 [INF] Starting web host
+2021-04-27 16:18:15.679 +07:00 [INF] Starting web host
+2021-04-27 16:20:10.143 +07:00 [INF] Starting web host
+2021-04-27 16:20:16.179 +07:00 [INF] Starting web host
+2021-04-27 16:20:25.115 +07:00 [INF] Starting web host
+2021-04-27 16:39:22.793 +07:00 [INF] Starting web host
+2021-04-27 16:39:28.921 +07:00 [INF] Starting web host
+2021-04-27 16:41:28.855 +07:00 [INF] Starting web host
+2021-04-27 19:46:57.396 +07:00 [INF] Starting web host
+2021-04-27 19:47:18.907 +07:00 [INF] Starting web host
+2021-04-27 19:48:38.261 +07:00 [INF] Starting web host
+2021-04-27 19:49:21.611 +07:00 [INF] Starting web host
+2021-04-27 19:50:07.276 +07:00 [INF] Starting web host
+2021-04-27 19:57:49.723 +07:00 [INF] Starting web host
+2021-04-27 20:01:10.799 +07:00 [INF] Starting web host
+2021-04-27 20:03:07.333 +07:00 [INF] Starting web host
+2021-04-27 20:04:21.782 +07:00 [INF] Starting web host
+2021-04-27 21:11:25.517 +07:00 [INF] Starting web host
+2021-04-27 21:32:44.998 +07:00 [INF] Starting web host
+2021-04-27 21:35:27.615 +07:00 [INF] Starting web host
+2021-04-27 21:35:35.320 +07:00 [INF] Starting web host
+2021-04-27 21:52:42.573 +07:00 [INF] Starting web host
+2021-04-27 21:55:00.543 +07:00 [INF] Starting web host
+2021-04-27 21:55:04.077 +07:00 [INF] Starting web host
+2021-04-27 21:55:10.018 +07:00 [INF] Starting web host
+2021-04-27 21:55:21.573 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SevenEleven.Services.ProductGroup.ProductGroupService.DeleteProductGroupById(Int32 id) in D:\TestingExam\SevenEleven\Services\ProductGroup\ProductGroupService.cs:line 83
+   at SevenEleven.Controllers.ProductGroupController.DeleteProductGroupById(Int32 id) in D:\TestingExam\SevenEleven\Controllers\ProductGroupController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-27 21:56:12.488 +07:00 [INF] Starting web host
+2021-04-27 21:56:46.410 +07:00 [INF] Starting web host
+2021-04-27 21:57:54.302 +07:00 [INF] Starting web host
+2021-04-27 22:03:04.425 +07:00 [INF] Starting web host
+2021-04-27 22:03:20.331 +07:00 [INF] Starting web host
+2021-04-27 22:04:11.573 +07:00 [INF] Starting web host
+2021-04-27 22:04:46.786 +07:00 [INF] Starting web host
+2021-04-27 22:08:59.188 +07:00 [INF] Starting web host
+2021-04-27 22:09:10.463 +07:00 [INF] Starting web host
+2021-04-27 22:12:55.545 +07:00 [INF] Starting web host
+2021-04-27 22:22:44.587 +07:00 [INF] Starting web host
+2021-04-27 22:23:11.427 +07:00 [INF] Starting web host
+2021-04-27 22:23:20.739 +07:00 [INF] Starting web host
+2021-04-27 22:24:38.757 +07:00 [INF] Starting web host
+2021-04-27 22:25:47.778 +07:00 [INF] Starting web host
+2021-04-27 22:27:54.238 +07:00 [INF] Starting web host
+2021-04-27 22:29:11.736 +07:00 [INF] Starting web host
+2021-04-27 22:31:45.174 +07:00 [INF] Starting web host
+2021-04-27 22:33:50.853 +07:00 [INF] Starting web host
+2021-04-27 22:35:45.002 +07:00 [INF] Starting web host
+2021-04-27 22:36:27.465 +07:00 [INF] Starting web host
+2021-04-27 22:38:10.222 +07:00 [INF] Starting web host
+2021-04-27 22:38:16.165 +07:00 [INF] Starting web host
+2021-04-27 22:38:27.245 +07:00 [INF] Starting web host
+2021-04-27 22:39:32.908 +07:00 [INF] Starting web host
+2021-04-27 22:40:00.136 +07:00 [INF] Starting web host
+2021-04-27 22:40:05.286 +07:00 [INF] Starting web host
+2021-04-27 22:50:00.207 +07:00 [INF] Starting web host
+2021-04-27 22:50:05.374 +07:00 [INF] Starting web host
+2021-04-27 22:54:10.687 +07:00 [INF] Starting web host
+2021-04-27 22:54:23.309 +07:00 [INF] Starting web host
+2021-04-27 22:54:27.774 +07:00 [INF] Starting web host
+2021-04-27 22:54:36.511 +07:00 [INF] Starting web host

@@ -1,0 +1,318 @@
+2021-04-27 12:40:57.070 +07:00 [INF] Starting web host
+2021-04-27 12:41:39.862 +07:00 [INF] Starting web host
+2021-04-27 12:44:54.169 +07:00 [INF] Starting web host
+2021-04-27 12:45:11.573 +07:00 [INF] Starting web host
+2021-04-27 12:47:29.032 +07:00 [INF] Starting web host
+2021-04-27 12:47:43.346 +07:00 [INF] Starting web host
+2021-04-27 12:47:51.071 +07:00 [INF] Starting web host
+2021-04-27 12:48:25.083 +07:00 [INF] Starting web host
+2021-04-27 12:48:55.218 +07:00 [INF] Starting web host
+2021-04-27 12:50:43.056 +07:00 [INF] Starting web host
+2021-04-27 12:51:32.227 +07:00 [INF] Starting web host
+2021-04-27 13:00:54.988 +07:00 [INF] Starting web host
+2021-04-27 13:01:10.047 +07:00 [INF] Starting web host
+2021-04-27 13:02:18.920 +07:00 [INF] Starting web host
+2021-04-27 13:03:39.269 +07:00 [INF] Starting web host
+2021-04-27 13:03:48.842 +07:00 [INF] Starting web host
+2021-04-27 13:03:53.990 +07:00 [INF] Starting web host
+2021-04-27 13:07:01.703 +07:00 [INF] Starting web host
+2021-04-27 13:07:07.595 +07:00 [INF] Starting web host
+2021-04-27 13:07:27.157 +07:00 [INF] Starting web host
+2021-04-27 13:07:47.849 +07:00 [INF] Starting web host
+2021-04-27 13:08:12.774 +07:00 [INF] Starting web host
+2021-04-27 13:08:22.514 +07:00 [INF] Starting web host
+2021-04-27 13:14:08.524 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'SevenEleven.Services.ProductGroup.IProductGroup' while attempting to activate 'SevenEleven.Controllers.ProductGroupController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-27 13:15:17.395 +07:00 [INF] Starting web host
+2021-04-27 13:15:26.138 +07:00 [INF] Starting web host
+2021-04-27 13:16:39.122 +07:00 [INF] Starting web host
+2021-04-27 13:24:14.216 +07:00 [INF] Starting web host
+2021-04-27 13:24:23.233 +07:00 [INF] Starting web host
+2021-04-27 13:28:31.220 +07:00 [INF] Starting web host
+2021-04-27 13:28:37.797 +07:00 [INF] Starting web host
+2021-04-27 13:28:44.598 +07:00 [INF] Starting web host
+2021-04-27 13:28:49.240 +07:00 [INF] Starting web host
+2021-04-27 13:31:51.135 +07:00 [INF] Starting web host
+2021-04-27 13:33:02.630 +07:00 [INF] Starting web host
+2021-04-27 13:33:07.622 +07:00 [INF] Starting web host
+2021-04-27 13:34:05.404 +07:00 [INF] Starting web host
+2021-04-27 13:36:02.149 +07:00 [INF] Starting web host
+2021-04-27 13:36:46.657 +07:00 [INF] Starting web host
+2021-04-27 13:36:58.047 +07:00 [INF] Starting web host
+2021-04-27 13:48:04.878 +07:00 [INF] Starting web host
+2021-04-27 13:53:04.353 +07:00 [INF] Starting web host
+2021-04-27 13:54:15.184 +07:00 [INF] Starting web host
+2021-04-27 13:54:46.232 +07:00 [INF] Starting web host
+2021-04-27 13:59:04.522 +07:00 [INF] Starting web host
+2021-04-27 13:59:12.297 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> ProductDto_ToReturn
+SevenEleven.Models.Product -> SevenEleven.DTOs.Product.ProductDto_ToReturn
+
+Type Map configuration:
+Product -> ProductDto_ToReturn
+SevenEleven.Models.Product -> SevenEleven.DTOs.Product.ProductDto_ToReturn
+
+Destination Member:
+ProductGroups
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProductGroup -> ProductGroupDto_ToReturn
+SevenEleven.Models.ProductGroup -> SevenEleven.DTOs.ProductGroup.ProductGroupDto_ToReturn
+   at lambda_method(Closure , ProductGroup , ProductGroupDto_ToReturn , ResolutionContext )
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Product.ProductService.GetAllProduct() in D:\TestingExam\SevenEleven\Services\Product\ProductService.cs:line 34
+   at SevenEleven.Controllers.ProductController.GetAllProduct() in D:\TestingExam\SevenEleven\Controllers\ProductController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-27 13:59:34.525 +07:00 [INF] Starting web host
+2021-04-27 13:59:36.152 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> ProductDto_ToReturn
+SevenEleven.Models.Product -> SevenEleven.DTOs.Product.ProductDto_ToReturn
+
+Type Map configuration:
+Product -> ProductDto_ToReturn
+SevenEleven.Models.Product -> SevenEleven.DTOs.Product.ProductDto_ToReturn
+
+Destination Member:
+ProductGroups
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProductGroup -> ProductGroupDto_ToReturn
+SevenEleven.Models.ProductGroup -> SevenEleven.DTOs.ProductGroup.ProductGroupDto_ToReturn
+   at lambda_method(Closure , ProductGroup , ProductGroupDto_ToReturn , ResolutionContext )
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Product.ProductService.GetAllProduct() in D:\TestingExam\SevenEleven\Services\Product\ProductService.cs:line 34
+   at SevenEleven.Controllers.ProductController.GetAllProduct() in D:\TestingExam\SevenEleven\Controllers\ProductController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-27 14:00:07.822 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Object -> List`1
+System.Object -> System.Collections.Generic.List`1[[SevenEleven.DTOs.Product.ProductDto_ToReturn, NetCoreAPI_Template_v3_with_auth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Product -> ProductDto_ToReturn
+SevenEleven.Models.Product -> SevenEleven.DTOs.Product.ProductDto_ToReturn
+
+Type Map configuration:
+Product -> ProductDto_ToReturn
+SevenEleven.Models.Product -> SevenEleven.DTOs.Product.ProductDto_ToReturn
+
+Destination Member:
+ProductGroups
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ProductGroup -> ProductGroupDto_ToReturn
+SevenEleven.Models.ProductGroup -> SevenEleven.DTOs.ProductGroup.ProductGroupDto_ToReturn
+   at lambda_method(Closure , ProductGroup , ProductGroupDto_ToReturn , ResolutionContext )
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , List`1 , ResolutionContext )
+   at SevenEleven.Services.Product.ProductService.GetAllProduct() in D:\TestingExam\SevenEleven\Services\Product\ProductService.cs:line 34
+   at SevenEleven.Controllers.ProductController.GetAllProduct() in D:\TestingExam\SevenEleven\Controllers\ProductController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-27 14:00:57.888 +07:00 [INF] Starting web host
+2021-04-27 14:01:51.470 +07:00 [INF] Starting web host
+2021-04-27 14:03:10.457 +07:00 [INF] Starting web host
+2021-04-27 14:03:14.766 +07:00 [INF] Starting web host
+2021-04-27 14:03:22.876 +07:00 [INF] Starting web host
+2021-04-27 14:03:31.936 +07:00 [INF] Starting web host
+2021-04-27 14:04:17.029 +07:00 [INF] Starting web host
+2021-04-27 14:04:18.317 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The Include path 'ProductGroups->Products' results in a cycle. Cycles are not allowed in no-tracking queries. Either use a tracking query or remove the cycle.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.IncludeExpandingExpressionVisitor.VerifyNoCycles(IncludeTreeNode includeTreeNode)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.IncludeExpandingExpressionVisitor.ExpandInclude(Expression root, EntityReference entityReference)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.IncludeExpandingExpressionVisitor.VisitExtension(Expression extensionExpression)
+   at System.Linq.Expressions.Expression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ExpandingExpressionVisitor.Expand(Expression expression, Boolean applyIncludes)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PendingSelectorExpandingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at SevenEleven.Services.Product.ProductService.GetAllProduct() in D:\TestingExam\SevenEleven\Services\Product\ProductService.cs:line 33
+   at SevenEleven.Controllers.ProductController.GetAllProduct() in D:\TestingExam\SevenEleven\Controllers\ProductController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-27 14:04:38.766 +07:00 [INF] Starting web host
+2021-04-27 14:06:17.413 +07:00 [INF] Starting web host
+2021-04-27 14:07:45.881 +07:00 [INF] Starting web host
+2021-04-27 14:08:01.878 +07:00 [INF] Starting web host
+2021-04-27 14:08:14.063 +07:00 [INF] Starting web host
+2021-04-27 14:08:37.749 +07:00 [INF] Starting web host
+2021-04-27 14:09:41.704 +07:00 [INF] Starting web host
+2021-04-27 14:11:20.565 +07:00 [INF] Starting web host
+2021-04-27 14:14:14.813 +07:00 [INF] Starting web host
+2021-04-27 14:19:34.560 +07:00 [INF] Starting web host
+2021-04-27 15:09:19.493 +07:00 [INF] Starting web host
+2021-04-27 15:14:35.399 +07:00 [INF] Starting web host
+2021-04-27 15:14:50.520 +07:00 [INF] Starting web host
+2021-04-27 15:15:13.010 +07:00 [INF] Starting web host
+2021-04-27 15:15:20.833 +07:00 [INF] Starting web host
+2021-04-27 15:17:09.178 +07:00 [INF] Starting web host
+2021-04-27 15:17:14.088 +07:00 [INF] Starting web host
+2021-04-27 15:17:37.975 +07:00 [INF] Starting web host
+2021-04-27 15:19:04.738 +07:00 [INF] Starting web host
+2021-04-27 15:19:39.289 +07:00 [INF] Starting web host
+2021-04-27 15:20:11.699 +07:00 [INF] Starting web host
+2021-04-27 15:20:31.426 +07:00 [INF] Starting web host
+2021-04-27 15:20:57.993 +07:00 [INF] Starting web host
+2021-04-27 15:21:03.574 +07:00 [INF] Starting web host
+2021-04-27 15:21:17.091 +07:00 [INF] Starting web host
+2021-04-27 15:21:49.007 +07:00 [INF] Starting web host
+2021-04-27 15:21:58.516 +07:00 [INF] Starting web host
+2021-04-27 15:22:30.869 +07:00 [INF] Starting web host
+2021-04-27 15:23:16.572 +07:00 [INF] Starting web host
+2021-04-27 15:23:21.690 +07:00 [INF] Starting web host
+2021-04-27 15:23:25.149 +07:00 [INF] Starting web host
+2021-04-27 15:23:37.343 +07:00 [INF] Starting web host
+2021-04-27 15:23:58.061 +07:00 [INF] Starting web host
+2021-04-27 15:24:04.461 +07:00 [INF] Starting web host
+2021-04-27 15:24:11.387 +07:00 [INF] Starting web host
+2021-04-27 15:24:30.842 +07:00 [INF] Starting web host
+2021-04-27 15:24:53.918 +07:00 [INF] Starting web host
+2021-04-27 15:25:02.629 +07:00 [INF] Starting web host
+2021-04-27 15:27:23.444 +07:00 [INF] Starting web host
+2021-04-27 15:27:46.254 +07:00 [INF] Starting web host
+2021-04-27 15:29:10.665 +07:00 [INF] Starting web host
+2021-04-27 15:30:08.231 +07:00 [INF] Starting web host
+2021-04-27 15:30:50.815 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'SevenEleven.Services.Order.IOrder' while attempting to activate 'SevenEleven.Controllers.OrderController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-27 15:31:25.569 +07:00 [INF] Starting web host
+2021-04-27 15:32:28.782 +07:00 [INF] Starting web host
+2021-04-27 15:34:43.678 +07:00 [INF] Starting web host
+2021-04-27 15:35:08.057 +07:00 [INF] Starting web host
+2021-04-27 15:35:21.951 +07:00 [INF] Starting web host
+2021-04-27 15:38:59.884 +07:00 [INF] Starting web host
+2021-04-27 15:39:38.123 +07:00 [INF] Starting web host

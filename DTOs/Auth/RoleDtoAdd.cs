@@ -1,10 +1,10 @@
-﻿using NetCoreAPI_Template_v3_with_auth.Validations;
+﻿using SevenEleven.Validations;
 
-namespace NetCoreAPI_Template_v3_with_auth.DTOs
+namespace SevenEleven.DTOs
 {
-    public class RoleDtoAdd
-    {
-        [FirstLetterUpperCase]
-        public string RoleName { get; set; }
-    }
+      public class RoleDtoAdd
+      {
+            // [FirstLetterUpperCase]
+            public string RoleName { get; set; }
+      }
 }

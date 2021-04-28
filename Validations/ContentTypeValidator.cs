@@ -3,53 +3,53 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace NetCoreAPI_Template_v3_with_auth.Validations
+namespace SevenEleven.Validations
 {
-    public class ContentTypeValidator : ValidationAttribute
-    {
-        private readonly string[] _validContentTypes;
-        private readonly string[] _imageContentTypes = new string[] { "image/jpeg", "image/jpg", "image/png", "image/gif" };
+      public class ContentTypeValidator : ValidationAttribute
+      {
+            private readonly string[] _validContentTypes;
+            private readonly string[] _imageContentTypes = new string[] { "image/jpeg", "image/jpg", "image/png", "image/gif" };
 
-        public ContentTypeValidator(string[] ValidContentTypes)
-        {
-            _validContentTypes = ValidContentTypes;
-        }
-
-        public ContentTypeValidator(ContentTypeGroup contentTypeGroup)
-        {
-            switch (contentTypeGroup)
+            public ContentTypeValidator(string[] ValidContentTypes)
             {
-                case ContentTypeGroup.Image:
-                    _validContentTypes = _imageContentTypes;
-                    break;
-            }
-        }
-
-        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
-        {
-            if (value == null)
-            {
-                return ValidationResult.Success;
+                  _validContentTypes = ValidContentTypes;
             }
 
-            IFormFile formFile = value as IFormFile;
-
-            if (formFile == null)
+            public ContentTypeValidator(ContentTypeGroup contentTypeGroup)
             {
-                return ValidationResult.Success;
+                  switch (contentTypeGroup)
+                  {
+                        case ContentTypeGroup.Image:
+                              _validContentTypes = _imageContentTypes;
+                              break;
+                  }
             }
 
-            if (!_validContentTypes.Contains(formFile.ContentType))
+            protected override ValidationResult IsValid(object value, ValidationContext validationContext)
             {
-                return new ValidationResult($"Content-Type should be one of the following: {string.Join(",", _validContentTypes)}");
+                  if (value == null)
+                  {
+                        return ValidationResult.Success;
+                  }
+
+                  IFormFile formFile = value as IFormFile;
+
+                  if (formFile == null)
+                  {
+                        return ValidationResult.Success;
+                  }
+
+                  if (!_validContentTypes.Contains(formFile.ContentType))
+                  {
+                        return new ValidationResult($"Content-Type should be one of the following: {string.Join(",", _validContentTypes)}");
+                  }
+
+                  return ValidationResult.Success;
             }
 
-            return ValidationResult.Success;
-        }
-
-        public enum ContentTypeGroup
-        {
-            Image
-        }
-    }
+            public enum ContentTypeGroup
+            {
+                  Image
+            }
+      }
 }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NetCoreAPI_Template_v3_with_auth.Models
+namespace SevenEleven.Models
 {
-    public interface IId
-    {
-        public Guid Id { get; set; }
-    }
+      public interface IId
+      {
+            public Guid Id { get; set; }
+      }
 }
