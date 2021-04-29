@@ -35,6 +35,18 @@ namespace SevenEleven.Services.Product
 
             public async Task<ServiceResponse<ProductDto_ToReturn>> NewProduct(ProductDto_ToCreate newProduct)
             {
+                  string errorMessage = "";
+                  if (newProduct.Price == 0)
+                  {
+                        errorMessage += "Please enter price field";
+                        return ResponseResult.Failure<ProductDto_ToReturn>(errorMessage);
+                  }
+                  if (newProduct.ProductGroupId == 0)
+                  {
+                        errorMessage += "Please enter product group id field";
+                        return ResponseResult.Failure<ProductDto_ToReturn>(errorMessage);
+                  }
+
                   var checkProduct = await _dbContext.Products.FirstOrDefaultAsync(x => x.Name == newProduct.Name);
                   if (checkProduct == null)
                   {
@@ -55,8 +67,6 @@ namespace SevenEleven.Services.Product
                   {
                         return ResponseResult.Failure<ProductDto_ToReturn>("There is already a product group with the same name.");
                   }
-
-
             }
             public async Task<ServiceResponse<List<ProductDto_ToReturn>>> GetAllProduct(bool status)
             {
